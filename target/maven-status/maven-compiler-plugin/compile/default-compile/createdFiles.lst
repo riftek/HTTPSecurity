@@ -1,0 +1,7 @@
+rift\http\security\authentication\AuthenticationController.class
+rift\http\security\Authority.class
+rift\http\security\Authenticator.class
+rift\http\security\Role.class
+rift\http\security\authentication\SecureRESTController.class
+rift\http\security\annotations\HasAnyRole.class
+rift\http\security\authentication\basic\BasicAuthObject.class
