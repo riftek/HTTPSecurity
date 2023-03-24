@@ -5,6 +5,7 @@
  */
 package rift.http.security.authentication;
 
+import java.util.Map;
 import rift.http.security.Authenticator;
 import rift.http.controller.RESTController;
 import rift.http.handler.HttpRequest;
@@ -24,11 +25,11 @@ public class AuthenticationController extends RESTController {
     }
 
     @Override
-    public void handle(HttpRequest request, HttpResponse response) {
+    public void handle(HttpRequest request, HttpResponse response,Map logMessage) {
         System.out.println("cp1: " + response.getCookie("sessionid"));
         Session session = this.getRestHandler().getServer().getSessionManager().getSession("" + response.getCookie("sessionid").getValue());
         Object object = authenticator.authenticate(request.getBodyParameters());
-
+        System.out.println(""+object);
         session.setSessionObject(object);
         if (object != null) {
             response.setResponseCode(200);

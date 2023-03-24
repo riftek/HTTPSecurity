@@ -6,7 +6,9 @@
 package rift.http.security.authentication.basic;
 
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import rift.http.security.Role;
 
 /**
@@ -18,6 +20,8 @@ public class BasicAuthObject implements Serializable{
     String username;
     
     List<Role> roles ;
+    
+    
 
     public BasicAuthObject(String id, String username, List<Role> roles) {
         this.id = id;
@@ -36,6 +40,7 @@ public class BasicAuthObject implements Serializable{
     public String getId() {
         return id;
     }
+
     
     
 }

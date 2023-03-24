@@ -1,7 +1,7 @@
-D:\rift\GIT\riftek\maven\components\HTTPSecurity\src\main\java\rift\http\security\Authenticator.java
-D:\rift\GIT\riftek\maven\components\HTTPSecurity\src\main\java\rift\http\security\Role.java
-D:\rift\GIT\riftek\maven\components\HTTPSecurity\src\main\java\rift\http\security\authentication\SecureRESTController.java
-D:\rift\GIT\riftek\maven\components\HTTPSecurity\src\main\java\rift\http\security\authentication\AuthenticationController.java
-D:\rift\GIT\riftek\maven\components\HTTPSecurity\src\main\java\rift\http\security\Authority.java
-D:\rift\GIT\riftek\maven\components\HTTPSecurity\src\main\java\rift\http\security\annotations\HasAnyRole.java
-D:\rift\GIT\riftek\maven\components\HTTPSecurity\src\main\java\rift\http\security\authentication\basic\BasicAuthObject.java
+D:\rift\GIT\riftek\web development\components\HTTPSecurity\src\main\java\rift\http\security\Authority.java
+D:\rift\GIT\riftek\web development\components\HTTPSecurity\src\main\java\rift\http\security\Role.java
+D:\rift\GIT\riftek\web development\components\HTTPSecurity\src\main\java\rift\http\security\authentication\basic\BasicAuthObject.java
+D:\rift\GIT\riftek\web development\components\HTTPSecurity\src\main\java\rift\http\security\annotations\HasAnyRole.java
+D:\rift\GIT\riftek\web development\components\HTTPSecurity\src\main\java\rift\http\security\Authenticator.java
+D:\rift\GIT\riftek\web development\components\HTTPSecurity\src\main\java\rift\http\security\authentication\SecureRESTController.java
+D:\rift\GIT\riftek\web development\components\HTTPSecurity\src\main\java\rift\http\security\authentication\AuthenticationController.java

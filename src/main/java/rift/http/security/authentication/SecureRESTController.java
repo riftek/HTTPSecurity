@@ -40,7 +40,7 @@ public class SecureRESTController extends RESTController {
     }
 
     @Override
-    public void handle(HttpRequest request, HttpResponse response) {
+    public void handle(HttpRequest request, HttpResponse response,Map logMessage) {
         
         Session session = getServer().getSessionManager().getSession("" + response.getCookie("sessionid").getValue());
         
@@ -49,7 +49,7 @@ public class SecureRESTController extends RESTController {
             request.setFilteredUri(uri);
             Method method = findRequestMapping(request.getMethod(), request.getFilteredUri().getPath());
             
-
+            
             if (method != null) {
                 if (authorised(session, method)) {
                     response.setResponseCode(200);
